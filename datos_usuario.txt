@@ -1,1 +1,2 @@
 Usuario=liveuser
+model name	: AMD Ryzen 5 5500X3D 6-Core Processor
