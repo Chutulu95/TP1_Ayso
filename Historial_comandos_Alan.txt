@@ -1,0 +1,55 @@
+setxkbmap es
+clera
+clear
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+bash
+?//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bash
+cd repogit/
+cd TP1_Ayso/
+PWD
+pwd
+is -l
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/oc-release 
+grep HOME_URl/etc/oc-release 
+grep home_url /etc/os-release
+grep home_url/etc/os-release
+grep -l Home_url /etc/os-release
+clear
+cat /etc/os-release
+grep -l Home_url /etc/os-release
+grep -iHome_url /etc/os-release
+ 
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+echo "Usuario=$(whoami)">datos_usuario.txt
+ls
+git add .
+git config --global user.email "alan.pegni@gmail.com"
+git config --global user.name "Chutulu95"
+git commit -m "ADD: agreado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpùinfo
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+[200~git commit -m "feat: Añadiendo informacion de CPU"
+git commit -m "feat: Añadiendo informacion de CPU"
+cat <<EOF>> README.md
+Alumno: Alan Pegni
+Division: 313 
+Turno Noche
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo REadme y datos de usuario"
+git push
+history -a
